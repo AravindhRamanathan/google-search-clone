@@ -28,7 +28,7 @@ function Header() {
             onClick={()=>router.push("/")}
             />
             <form className="flex flex-grow px-6 py-3 sm:mr-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center">
-                <input ref = {searchInputRef} type="text" className="flex-grow w-full focus:outline-none"/>
+                <input ref = {searchInputRef} type="text" defaultValue ={router.query.term} className="flex-grow w-full focus:outline-none"/>
                 <XMarkIcon className="h-5 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125"
                 onClick={()=>(searchInputRef.current.value="")}/>
                 <MicrophoneIcon   className="mr-3 h-5 pl-4 border-l-2 hidden sm:inline-flex border-gray-300 ml-4 text-blue-500 " />
