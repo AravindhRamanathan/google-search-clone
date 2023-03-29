@@ -24,6 +24,7 @@ function Header() {
             src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png"
             height = {50}
             width ={150} 
+            alt = "yes its an google image"
             className = 'cursor-pointer'
             onClick={()=>router.push("/")}
             />

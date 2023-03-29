@@ -7,12 +7,11 @@ import SearchResults from "@/components/SearchResults";
 
 function Search({results}) {
     const router = useRouter();
-    console.log(results);
   return (
     
     <div>
         <Head>
-            <title>{router.query.term} - Google Search</title>
+            <title> Google Search</title>
         </Head>
         <Header/>
         {/* Header */}

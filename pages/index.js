@@ -49,7 +49,8 @@ export default function Home() {
       <Image
           src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-sva-scholarship-20.png"
           height = {100}
-          width ={300} 
+          width ={300}
+          alt="yes it's google icon" 
       />
       <div className='flex w-full mt-5  hover:shadow-lg
       focus-within:shadow-lg max-w-md rounded-full border border-gray-200
